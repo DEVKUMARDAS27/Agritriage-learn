@@ -1,0 +1,10 @@
+{
+  "name": "AgriTriage & Learn",
+  "description": "Integrated AI Agriculture Platform providing educational quizzes and multi-agent support for farmers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "AI-powered Agriculture Chatbot",
+    "Dynamic Agricultural Quiz Generator",
+    "Multi-agent Triage System"
+  ]
+}

@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+  
+  --color-agri-earth: #4A3728;
+  --color-agri-green-light: #F0F4ED;
+  --color-agri-green: #2D5A27;
+  --color-agri-green-dark: #1E3B1A;
+  --color-agri-leaf: #89B061;
+}
+
+@layer base {
+  body {
+    @apply bg-[#FBFBF9] text-[#2C2C2C] font-sans;
+  }
+  
+  h1, h2, h3, h4 {
+    @apply font-display font-bold tracking-tight;
+  }
+}
+
+.agri-card {
+  @apply bg-white border border-[#E5E5E0] rounded-2xl shadow-sm overflow-hidden;
+}
+
+.agri-btn-primary {
+  @apply bg-[#2D5A27] text-white px-6 py-3 rounded-xl font-medium transition-all hover:bg-[#1E3B1A] disabled:opacity-50 disabled:cursor-not-allowed;
+}
+
+.agri-btn-secondary {
+  @apply bg-white border-2 border-[#2D5A27] text-[#2D5A27] px-6 py-3 rounded-xl font-medium transition-all hover:bg-[#F0F4ED] disabled:opacity-50;
+}
